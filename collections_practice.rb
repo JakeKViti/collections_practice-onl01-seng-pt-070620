@@ -51,11 +51,13 @@ end
 
 def add_s(array)
   newArray = []
+  front = []
+  front.push(array[0])
   newArray.push(array[1])
-  array.shift(1)
+  array.shift(2)
   esses = array.collect {|a| a + "s"}
-  front = esses[0]
-  newArray.unshift(front)
+  esses1 = front.collect {|a| a + "s"}
+  newArray.unshift(esses1)
   newArray.push(esses)
   return newArray
 end
