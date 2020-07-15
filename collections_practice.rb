@@ -42,10 +42,13 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-array=array.sort do |a, b|
+  aWords = []
+array = array.sort do |a, b|
     a <=> b
   end
-  return array
+  array.each do |a|
+    if array.include? "a"
+      aWords.shift(a)
 end
 
 def sum_array(array)
