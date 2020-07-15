@@ -23,7 +23,7 @@ def swap_elements(array)
   array.shift
   array4 = array
   return "#{array1} #{array3} #{array2} #{array}"
-  
+
   end
 end
 
