@@ -46,11 +46,7 @@ def find_a(array)
 array = array.sort do |a, b|
     a <=> b
   end
-  array.each do |a|
-    if array.include? "a"
-      aWords.shift(a)
-    end
-  end
+    aWords array.find {|item| item.include?("a")}
   return aWords
 end
 
