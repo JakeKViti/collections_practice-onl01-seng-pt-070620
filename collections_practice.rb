@@ -49,6 +49,9 @@ array = array.sort do |a, b|
   array.each do |a|
     if array.include? "a"
       aWords.shift(a)
+    end
+  end
+  return aWords
 end
 
 def sum_array(array)
