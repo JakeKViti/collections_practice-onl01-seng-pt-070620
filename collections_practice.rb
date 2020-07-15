@@ -50,5 +50,6 @@ def sum_array(array)
 end
 
 def add_s(array)
+  holder = array[1]
     esses = array.collect {|a| a + "s"}
 end
