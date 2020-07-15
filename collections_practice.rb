@@ -45,7 +45,6 @@ def find_a(array)
   array.sort do |a, b|
     a <=> b
   end
-  return array
 end
 
 def sum_array(array)
