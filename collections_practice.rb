@@ -47,6 +47,7 @@ array = array.sort do |a, b|
     a <=> b
   end
     aWords array.find {|item| item.include?("a")}
+  end
   return aWords
 end
 
