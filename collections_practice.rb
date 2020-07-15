@@ -38,8 +38,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-letters = array.split(" ")
-letters.collect do |word|
+array.collect do |word|
   letter = word.chars
   first = letter.shift
   second = letter.shift
