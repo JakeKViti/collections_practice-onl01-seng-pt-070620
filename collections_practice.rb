@@ -50,10 +50,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  holder = []
+  newArray = []
   front = []
   front.push(array[0])
-  holder.push(array[1])
+  newArray.push(array[1])
   array.shift(2)
   middle = newArray.join()
   esses = array.map {|a| a + "s"}
