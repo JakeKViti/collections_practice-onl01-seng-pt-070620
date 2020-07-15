@@ -50,5 +50,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-
+  esses = array.collect {|a| a + "s"}
 end
