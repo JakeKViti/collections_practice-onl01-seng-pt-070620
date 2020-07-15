@@ -36,6 +36,7 @@ def reverse_array(array)
    array.shift
    array.push(a)
   end
+  return array
 end
 
 def kesha_maker(array)
