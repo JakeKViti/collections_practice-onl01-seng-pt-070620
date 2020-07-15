@@ -50,11 +50,12 @@ def sum_array(array)
 end
 
 def add_s(array)
-  newArray = array[1]
+  newArray = []
+  newArray.push(array[1])
   array.shift(2)
   esses = array.collect {|a| a + "s"}
   front = esses[0]
-  #newArray.unshift(front)
+  newArray.unshift(front)
   newArray.push(esses)
   return newArray
 end
