@@ -46,8 +46,7 @@ def find_a(array)
 array = array.sort do |a, b|
     a <=> b
   end
-    aWords array.find {|item| item.include?("a")}
-  end
+    aWords = array.find {|item| item.include?("a")}
   return aWords
 end
 
