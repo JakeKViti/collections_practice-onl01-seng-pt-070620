@@ -58,7 +58,7 @@ def add_s(array)
   esses = array.map {|a| a + "s"}
   esses1 = front.map {|a| a + "s"}
   first = esses1.join(" ")
-  newArray.unshift(first)
+  esses.unshift(first)
   newArray.push(esses)
   return newArray
 end
