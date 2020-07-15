@@ -60,5 +60,5 @@ def add_s(array)
   first = esses1.join(" ")
   esses.unshift(first)
   newArray.push(esses)
-  return newArray
+  return front
 end
