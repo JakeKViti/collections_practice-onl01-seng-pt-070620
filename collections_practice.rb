@@ -42,7 +42,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  aWords = array.select {|item| item.include?("a")}
+  aWords = array.select {|item| item.start_wi?("a")}
   return aWords
 end
 
