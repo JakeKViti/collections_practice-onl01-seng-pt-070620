@@ -47,6 +47,7 @@ end
 
 def sum_array(array)
   numbers=array.join
+  return numbers
 end
 
 def add_s(array)
