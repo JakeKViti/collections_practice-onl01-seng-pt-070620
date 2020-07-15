@@ -42,9 +42,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-array = array.sort do |a, b|
-    a <=> b
-  end
     aWords = array.select {|item| item.include?("a")}
   return aWords
 end
