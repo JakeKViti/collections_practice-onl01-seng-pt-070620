@@ -44,7 +44,7 @@ letters.collect do |word|
   first = letter.shift
   second = letter.shift
   thrid = "$"
-  fourth = letter.pop 
+  fourth = letter.pop
   fifth = letter.pop
   letter.unshift(third)
   letter.unshift(second)
