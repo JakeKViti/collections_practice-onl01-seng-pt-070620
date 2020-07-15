@@ -50,8 +50,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  esses = []
-  if !array[2]
-  esses = array.collect {|a| a + "s"}
+    esses = array.collect {|a| a + "s"}
 end
-end
+
+
