@@ -22,7 +22,7 @@ def swap_elements(array)
   array3 = array[0]
   array.shift
   array4 = array
-  return "#{array1} #{array3} #{array2} #{array}"
+  newArray= array1 array3 array2 array
 end
 
 def reverse_array(array)
