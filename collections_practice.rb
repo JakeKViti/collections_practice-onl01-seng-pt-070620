@@ -51,5 +51,6 @@ end
 
 def add_s(array)
   holder = array[1]
+  array.shift(2)
     esses = array.collect {|a| a + "s"}
 end
