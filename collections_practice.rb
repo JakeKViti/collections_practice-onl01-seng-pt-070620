@@ -26,7 +26,6 @@ def swap_elements(array)
   newArray.push(array1)
   newArray.push(array3)
   newArray.push(array2)
-  #newArray.push(array)
   return newArray
 end
 
