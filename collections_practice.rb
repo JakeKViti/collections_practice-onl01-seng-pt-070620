@@ -42,9 +42,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.sort do |a, b|
+array=array.sort do |a, b|
     a <=> b
   end
+  return array
 end
 
 def sum_array(array)
