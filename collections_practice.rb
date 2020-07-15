@@ -30,8 +30,11 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array.sort do |a, b|
-    b <=> a
+  holder = []
+  array.each do |a|
+   holder.unshift(a)
+   array.shift
+   array.push(a)
   end
 end
 
