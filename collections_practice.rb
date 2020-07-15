@@ -35,9 +35,9 @@ def reverse_array(array)
   array.each do |a|
    holder.unshift(a)
    array.shift
-   array.unshift(a)
+   newArray.unshift(a)
   end
-  return array
+  return newArray
 end
 
 def kesha_maker(array)
