@@ -42,7 +42,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  aWords = []
 array = array.sort do |a, b|
     a <=> b
   end
