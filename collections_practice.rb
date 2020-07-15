@@ -15,8 +15,15 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.sort do |a, b|
-    2 <=> 3
+  array1 = array[0]
+  array.shift
+  array2 = array[0]
+  array.shift
+  array3 = array[0]
+  array.shift
+  array4 = array
+  return "#{array1} #{array3} #{array2} #{array}"
+  
   end
 end
 
