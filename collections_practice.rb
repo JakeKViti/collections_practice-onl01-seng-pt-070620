@@ -23,6 +23,7 @@ def swap_elements(array)
   array.shift
   array4 = array
   newArray= array1 array3 array2 array
+  return newArray
 end
 
 def reverse_array(array)
