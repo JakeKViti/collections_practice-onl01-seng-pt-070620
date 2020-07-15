@@ -15,6 +15,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  newArray = []
   array1 = array[0]
   array.shift
   array2 = array[0]
@@ -22,7 +23,10 @@ def swap_elements(array)
   array3 = array[0]
   array.shift
   array4 = array
-  newArray= array1 array3 array2 array
+  newArray.push(array1)
+  newArray.push(array3)
+  newArray.push(array2)
+  newArray.push(array)
   return newArray
 end
 
