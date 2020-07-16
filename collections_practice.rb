@@ -38,7 +38,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-finallArray
+finallArray = []
 array.collect do |word|
   letter = word.chars
   first = letter.shift
