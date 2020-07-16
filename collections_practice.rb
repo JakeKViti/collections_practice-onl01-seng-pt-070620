@@ -49,10 +49,10 @@ array.collect do |word|
 
   letter.unshift(second)
   letter.unshift(first)
-  letter.push(" ")
+  letter.push("$")
   letter.push(fifth)
   letter.push(fourth)
-  letter.push("$")
+  letter.push(" ")
 end.join("")
 end
 
