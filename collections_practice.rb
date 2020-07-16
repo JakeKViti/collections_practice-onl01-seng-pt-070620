@@ -52,8 +52,7 @@ array.collect do |word|
   letter.push(fifth)
   letter.push(fourth)
   letter.push(" ")
-end.join()
-finallArray = letter
+end
 end
 
 def find_a(array)
