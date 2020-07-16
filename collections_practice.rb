@@ -46,7 +46,6 @@ array.collect do |word|
   letter.shift
   fourth = letter.pop
   fifth = letter.pop
-
   letter.unshift(second)
   letter.unshift(first)
   letter.push("$")
@@ -54,7 +53,7 @@ array.collect do |word|
   letter.push(fourth)
   letter.push(" ")
 end
-return letter
+
 end
 
 def find_a(array)
