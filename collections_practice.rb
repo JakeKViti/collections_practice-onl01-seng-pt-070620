@@ -45,7 +45,6 @@ array.collect do |word|
   second = letter.shift
   fourth = letter.pop
   fifth = letter.pop
-  letter.unshift(third)
   letter.unshift(second)
   letter.unshift(first)
   letter.push(fifth)
