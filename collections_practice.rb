@@ -49,6 +49,7 @@ array.collect do |word|
   letter.unshift(second)
   letter.unshift(first)
   letter.push(fifth)
+  letter.push(spaces)
   letter.push(fourth)
 end.join("")
 end
