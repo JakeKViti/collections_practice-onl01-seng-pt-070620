@@ -46,9 +46,9 @@ array.collect do |word|
   letter.shift
   fourth = letter.pop
   fifth = letter.pop
+  letter.unshift("$")
   letter.unshift(second)
   letter.unshift(first)
-  letter.push("$")
   letter.push(fifth)
   letter.push(fourth)
   letter.join
