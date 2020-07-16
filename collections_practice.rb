@@ -45,12 +45,13 @@ array.collect do |word|
   second = letter.shift
   fourth = letter.pop
   fifth = letter.pop
-  space = " "
+
   letter.unshift(second)
   letter.unshift(first)
+  letter.push(" ")
   letter.push(fifth)
-  letter.push(spaces)
   letter.push(fourth)
+  letter.push("$")
 end.join("")
 end
 
