@@ -49,7 +49,7 @@ array.collect do |word|
   letter.unshift(first)
   letter.push(fifth)
   letter.push(fourth)
-end.join(" ")
+end.join("")
 end
 
 def find_a(array)
