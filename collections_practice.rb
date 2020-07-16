@@ -52,6 +52,7 @@ array.collect do |word|
   letter.push(fifth)
   letter.push(fourth)
   letter.push(" ")
+  letter.join
 end
 end
 
