@@ -43,6 +43,7 @@ array.collect do |word|
   letter = word.chars
   first = letter.shift
   second = letter.shift
+  letter.shift
   fourth = letter.pop
   fifth = letter.pop
 
